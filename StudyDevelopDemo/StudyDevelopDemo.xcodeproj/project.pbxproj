@@ -16,6 +16,10 @@
 		44767691216F0B200015D7E7 /* StudyDevelopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44767690216F0B200015D7E7 /* StudyDevelopDemoTests.m */; };
 		4476769C216F0B200015D7E7 /* StudyDevelopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4476769B216F0B200015D7E7 /* StudyDevelopDemoUITests.m */; };
 		447676B1216F0C0A0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676B0216F0C0A0015D7E7 /* readme.md */; };
+		447676B5216F0E040015D7E7 /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676B4216F0E040015D7E7 /* BlockVC.m */; };
+		447676BE216F0EFE0015D7E7 /* WTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676BD216F0EFE0015D7E7 /* WTTabBarController.m */; };
+		447676C2216F10270015D7E7 /* WTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676C1216F10270015D7E7 /* WTNavigationController.m */; };
+		447676C4216F127E0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C3216F127E0015D7E7 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		4476769B216F0B200015D7E7 /* StudyDevelopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyDevelopDemoUITests.m; sourceTree = "<group>"; };
 		4476769D216F0B200015D7E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		447676B0216F0C0A0015D7E7 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676B3216F0E040015D7E7 /* BlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockVC.h; sourceTree = "<group>"; };
+		447676B4216F0E040015D7E7 /* BlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockVC.m; sourceTree = "<group>"; };
+		447676BC216F0EFE0015D7E7 /* WTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTTabBarController.h; sourceTree = "<group>"; };
+		447676BD216F0EFE0015D7E7 /* WTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTTabBarController.m; sourceTree = "<group>"; };
+		447676BF216F0FCE0015D7E7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		447676C0216F10270015D7E7 /* WTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNavigationController.h; sourceTree = "<group>"; };
+		447676C1216F10270015D7E7 /* WTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNavigationController.m; sourceTree = "<group>"; };
+		447676C3216F127E0015D7E7 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,7 @@
 				44767682216F0B200015D7E7 /* LaunchScreen.storyboard */,
 				44767685216F0B200015D7E7 /* Info.plist */,
 				44767686216F0B200015D7E7 /* main.m */,
+				447676C3216F127E0015D7E7 /* readme.md */,
 			);
 			path = StudyDevelopDemo;
 			sourceTree = "<group>";
@@ -140,6 +153,7 @@
 		447676A9216F0B240015D7E7 /* Views界面 */ = {
 			isa = PBXGroup;
 			children = (
+				447676B2216F0DCE0015D7E7 /* Block探究 */,
 				4476767A216F0B1E0015D7E7 /* ViewController.h */,
 				4476767B216F0B1E0015D7E7 /* ViewController.m */,
 			);
@@ -149,6 +163,7 @@
 		447676AA216F0B900015D7E7 /* Tools工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				447676BF216F0FCE0015D7E7 /* PrefixHeader.pch */,
 			);
 			path = "Tools工具类";
 			sourceTree = "<group>";
@@ -156,6 +171,10 @@
 		447676AB216F0B9B0015D7E7 /* Bases基本类 */ = {
 			isa = PBXGroup;
 			children = (
+				447676BC216F0EFE0015D7E7 /* WTTabBarController.h */,
+				447676BD216F0EFE0015D7E7 /* WTTabBarController.m */,
+				447676C0216F10270015D7E7 /* WTNavigationController.h */,
+				447676C1216F10270015D7E7 /* WTNavigationController.m */,
 			);
 			path = "Bases基本类";
 			sourceTree = "<group>";
@@ -189,6 +208,15 @@
 				447676B0216F0C0A0015D7E7 /* readme.md */,
 			);
 			path = "Main启动类";
+			sourceTree = "<group>";
+		};
+		447676B2216F0DCE0015D7E7 /* Block探究 */ = {
+			isa = PBXGroup;
+			children = (
+				447676B3216F0E040015D7E7 /* BlockVC.h */,
+				447676B4216F0E040015D7E7 /* BlockVC.m */,
+			);
+			path = "Block探究";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +325,7 @@
 				44767684216F0B200015D7E7 /* LaunchScreen.storyboard in Resources */,
 				44767681216F0B200015D7E7 /* Assets.xcassets in Resources */,
 				447676B1216F0C0A0015D7E7 /* readme.md in Resources */,
+				447676C4216F127E0015D7E7 /* readme.md in Resources */,
 				4476767F216F0B1E0015D7E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447676B5216F0E040015D7E7 /* BlockVC.m in Sources */,
+				447676BE216F0EFE0015D7E7 /* WTTabBarController.m in Sources */,
 				4476767C216F0B1E0015D7E7 /* ViewController.m in Sources */,
+				447676C2216F10270015D7E7 /* WTNavigationController.m in Sources */,
 				44767687216F0B200015D7E7 /* main.m in Sources */,
 				44767679216F0B1E0015D7E7 /* AppDelegate.m in Sources */,
 			);
@@ -496,6 +528,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/StudyDevelopDemo/Tools工具类/PrefixHeader.pch";
 				INFOPLIST_FILE = StudyDevelopDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,6 +546,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/StudyDevelopDemo/Tools工具类/PrefixHeader.pch";
 				INFOPLIST_FILE = StudyDevelopDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
