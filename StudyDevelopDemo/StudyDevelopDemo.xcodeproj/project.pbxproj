@@ -20,6 +20,12 @@
 		447676BE216F0EFE0015D7E7 /* WTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676BD216F0EFE0015D7E7 /* WTTabBarController.m */; };
 		447676C2216F10270015D7E7 /* WTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676C1216F10270015D7E7 /* WTNavigationController.m */; };
 		447676C4216F127E0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C3216F127E0015D7E7 /* readme.md */; };
+		447676C6216F13900015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C5216F13900015D7E7 /* readme.md */; };
+		447676C8216F13990015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C7216F13990015D7E7 /* readme.md */; };
+		447676CA216F13A20015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C9216F13A20015D7E7 /* readme.md */; };
+		447676CC216F13AB0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676CB216F13AB0015D7E7 /* readme.md */; };
+		447676CE216F13B60015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676CD216F13B60015D7E7 /* readme.md */; };
+		447676D0216F13BE0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676CF216F13BE0015D7E7 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,12 @@
 		447676C0216F10270015D7E7 /* WTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNavigationController.h; sourceTree = "<group>"; };
 		447676C1216F10270015D7E7 /* WTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNavigationController.m; sourceTree = "<group>"; };
 		447676C3216F127E0015D7E7 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676C5216F13900015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676C7216F13990015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676C9216F13A20015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676CB216F13AB0015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676CD216F13B60015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676CF216F13BE0015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +165,7 @@
 		447676A9216F0B240015D7E7 /* Views界面 */ = {
 			isa = PBXGroup;
 			children = (
+				447676CF216F13BE0015D7E7 /* readme.md */,
 				447676B2216F0DCE0015D7E7 /* Block探究 */,
 				4476767A216F0B1E0015D7E7 /* ViewController.h */,
 				4476767B216F0B1E0015D7E7 /* ViewController.m */,
@@ -163,6 +176,7 @@
 		447676AA216F0B900015D7E7 /* Tools工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				447676CD216F13B60015D7E7 /* readme.md */,
 				447676BF216F0FCE0015D7E7 /* PrefixHeader.pch */,
 			);
 			path = "Tools工具类";
@@ -171,6 +185,7 @@
 		447676AB216F0B9B0015D7E7 /* Bases基本类 */ = {
 			isa = PBXGroup;
 			children = (
+				447676CB216F13AB0015D7E7 /* readme.md */,
 				447676BC216F0EFE0015D7E7 /* WTTabBarController.h */,
 				447676BD216F0EFE0015D7E7 /* WTTabBarController.m */,
 				447676C0216F10270015D7E7 /* WTNavigationController.h */,
@@ -182,6 +197,7 @@
 		447676AC216F0BA50015D7E7 /* Sources素材 */ = {
 			isa = PBXGroup;
 			children = (
+				447676C9216F13A20015D7E7 /* readme.md */,
 			);
 			path = "Sources素材";
 			sourceTree = "<group>";
@@ -189,6 +205,7 @@
 		447676AD216F0BB30015D7E7 /* 3rdCategory第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				447676C7216F13990015D7E7 /* readme.md */,
 			);
 			path = "3rdCategory第三方";
 			sourceTree = "<group>";
@@ -196,6 +213,7 @@
 		447676AE216F0BC20015D7E7 /* Services管理类 */ = {
 			isa = PBXGroup;
 			children = (
+				447676C5216F13900015D7E7 /* readme.md */,
 			);
 			path = "Services管理类";
 			sourceTree = "<group>";
@@ -322,10 +340,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447676D0216F13BE0015D7E7 /* readme.md in Resources */,
 				44767684216F0B200015D7E7 /* LaunchScreen.storyboard in Resources */,
+				447676CC216F13AB0015D7E7 /* readme.md in Resources */,
 				44767681216F0B200015D7E7 /* Assets.xcassets in Resources */,
 				447676B1216F0C0A0015D7E7 /* readme.md in Resources */,
 				447676C4216F127E0015D7E7 /* readme.md in Resources */,
+				447676C8216F13990015D7E7 /* readme.md in Resources */,
+				447676C6216F13900015D7E7 /* readme.md in Resources */,
+				447676CA216F13A20015D7E7 /* readme.md in Resources */,
+				447676CE216F13B60015D7E7 /* readme.md in Resources */,
 				4476767F216F0B1E0015D7E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
