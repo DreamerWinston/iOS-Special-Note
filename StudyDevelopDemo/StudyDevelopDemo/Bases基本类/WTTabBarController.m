@@ -9,7 +9,14 @@
 #import "WTTabBarController.h"
 #import "WTNavigationController.h"
 
+#import "SettingsVC.h"
+#import "WelcomeVC.h"
+
 @interface WTTabBarController ()
+{
+    SettingsVC * _settingsVC;
+    WelcomeVC * _welcomeVC;
+}
 
 @end
 
@@ -17,7 +24,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _welcomeVC =[[WelcomeVC alloc]init];
+    [self  addChildVc:_welcomeVC title:@"欢迎" image:@"" selectedImage:@"" hide:NO];
+    
+    _settingsVC =[[SettingsVC alloc]init];
+    [self  addChildVc:_settingsVC title:@"设置" image:@"" selectedImage:@"" hide:NO];
+    
 }
 
 #pragma mark - private 私有方法
@@ -44,6 +57,7 @@
     [childController.tabBarItem setTitleTextAttributes:selectedTextAttrs forState:UIControlStateSelected];
     
     WTNavigationController * nav =[[WTNavigationController alloc]initWithRootViewController:childController];
+    nav.navigationBarHidden=hide;
     
     [self addChildViewController:nav];
 }

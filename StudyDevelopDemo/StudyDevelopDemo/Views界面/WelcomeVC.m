@@ -1,27 +1,26 @@
 //
-//  BlockVC.m
+//  WelcomeVC.m
 //  StudyDevelopDemo
 //
 //  Created by winston on 2018/10/11.
 //  Copyright © 2018 winston. All rights reserved.
 //
 
+#import "WelcomeVC.h"
+
 #import "BlockVC.h"
 
-@interface BlockVC ()
+@interface WelcomeVC ()
 
 @end
 
-@implementation BlockVC
+@implementation WelcomeVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    ^{
-        NSLog(@"啦啦");
-    }();
-    
+    BlockVC * block =[[BlockVC alloc]init];
+    [self.navigationController pushViewController:block animated:YES];
 }
 
 /*

@@ -8,24 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		44767679216F0B1E0015D7E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44767678216F0B1E0015D7E7 /* AppDelegate.m */; };
-		4476767C216F0B1E0015D7E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4476767B216F0B1E0015D7E7 /* ViewController.m */; };
 		4476767F216F0B1E0015D7E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4476767D216F0B1E0015D7E7 /* Main.storyboard */; };
 		44767681216F0B200015D7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44767680216F0B200015D7E7 /* Assets.xcassets */; };
 		44767684216F0B200015D7E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44767682216F0B200015D7E7 /* LaunchScreen.storyboard */; };
 		44767687216F0B200015D7E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44767686216F0B200015D7E7 /* main.m */; };
 		44767691216F0B200015D7E7 /* StudyDevelopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44767690216F0B200015D7E7 /* StudyDevelopDemoTests.m */; };
 		4476769C216F0B200015D7E7 /* StudyDevelopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4476769B216F0B200015D7E7 /* StudyDevelopDemoUITests.m */; };
-		447676B1216F0C0A0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676B0216F0C0A0015D7E7 /* readme.md */; };
 		447676B5216F0E040015D7E7 /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676B4216F0E040015D7E7 /* BlockVC.m */; };
 		447676BE216F0EFE0015D7E7 /* WTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676BD216F0EFE0015D7E7 /* WTTabBarController.m */; };
 		447676C2216F10270015D7E7 /* WTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676C1216F10270015D7E7 /* WTNavigationController.m */; };
-		447676C4216F127E0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C3216F127E0015D7E7 /* readme.md */; };
-		447676C6216F13900015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C5216F13900015D7E7 /* readme.md */; };
-		447676C8216F13990015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C7216F13990015D7E7 /* readme.md */; };
-		447676CA216F13A20015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676C9216F13A20015D7E7 /* readme.md */; };
-		447676CC216F13AB0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676CB216F13AB0015D7E7 /* readme.md */; };
-		447676CE216F13B60015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676CD216F13B60015D7E7 /* readme.md */; };
-		447676D0216F13BE0015D7E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 447676CF216F13BE0015D7E7 /* readme.md */; };
+		447676D3216F14FC0015D7E7 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676D2216F14FC0015D7E7 /* WelcomeVC.m */; };
+		447676D6216F165A0015D7E7 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 447676D5216F165A0015D7E7 /* SettingsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +42,6 @@
 		44767674216F0B1E0015D7E7 /* StudyDevelopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDevelopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44767677216F0B1E0015D7E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44767678216F0B1E0015D7E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4476767A216F0B1E0015D7E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4476767B216F0B1E0015D7E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4476767E216F0B1E0015D7E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44767680216F0B200015D7E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44767683216F0B200015D7E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,6 +68,10 @@
 		447676CB216F13AB0015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		447676CD216F13B60015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		447676CF216F13BE0015D7E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		447676D1216F14FC0015D7E7 /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
+		447676D2216F14FC0015D7E7 /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
+		447676D4216F165A0015D7E7 /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		447676D5216F165A0015D7E7 /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +162,10 @@
 			children = (
 				447676CF216F13BE0015D7E7 /* readme.md */,
 				447676B2216F0DCE0015D7E7 /* Block探究 */,
-				4476767A216F0B1E0015D7E7 /* ViewController.h */,
-				4476767B216F0B1E0015D7E7 /* ViewController.m */,
+				447676D1216F14FC0015D7E7 /* WelcomeVC.h */,
+				447676D2216F14FC0015D7E7 /* WelcomeVC.m */,
+				447676D4216F165A0015D7E7 /* SettingsVC.h */,
+				447676D5216F165A0015D7E7 /* SettingsVC.m */,
 			);
 			path = "Views界面";
 			sourceTree = "<group>";
@@ -340,16 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447676D0216F13BE0015D7E7 /* readme.md in Resources */,
 				44767684216F0B200015D7E7 /* LaunchScreen.storyboard in Resources */,
-				447676CC216F13AB0015D7E7 /* readme.md in Resources */,
 				44767681216F0B200015D7E7 /* Assets.xcassets in Resources */,
-				447676B1216F0C0A0015D7E7 /* readme.md in Resources */,
-				447676C4216F127E0015D7E7 /* readme.md in Resources */,
-				447676C8216F13990015D7E7 /* readme.md in Resources */,
-				447676C6216F13900015D7E7 /* readme.md in Resources */,
-				447676CA216F13A20015D7E7 /* readme.md in Resources */,
-				447676CE216F13B60015D7E7 /* readme.md in Resources */,
 				4476767F216F0B1E0015D7E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +366,8 @@
 			files = (
 				447676B5216F0E040015D7E7 /* BlockVC.m in Sources */,
 				447676BE216F0EFE0015D7E7 /* WTTabBarController.m in Sources */,
-				4476767C216F0B1E0015D7E7 /* ViewController.m in Sources */,
+				447676D3216F14FC0015D7E7 /* WelcomeVC.m in Sources */,
+				447676D6216F165A0015D7E7 /* SettingsVC.m in Sources */,
 				447676C2216F10270015D7E7 /* WTNavigationController.m in Sources */,
 				44767687216F0B200015D7E7 /* main.m in Sources */,
 				44767679216F0B1E0015D7E7 /* AppDelegate.m in Sources */,

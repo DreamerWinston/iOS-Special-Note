@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingsVC.h
 //  StudyDevelopDemo
 //
 //  Created by winston on 2018/10/11.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface SettingsVC : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
